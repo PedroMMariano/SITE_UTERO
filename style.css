@@ -73,6 +73,11 @@ header {
     background-color: rgb(252, 186, 235, 0.925);
 }
 
+main {
+    display: flex;
+    justify-content: center;
+}
+
 .utero2 {
     padding: 30px;
     margin-left: 10px;
@@ -81,11 +86,6 @@ header {
     border-radius: 30px;
     border: solid;
     background-color: rgb(252, 186, 235, 0.925);
-}
-
-.teste {
-    width: 1800px;
-    height: 1000px;
 }
 
 footer {
@@ -113,9 +113,8 @@ footer {
         justify-content: center;
     }
 
-    .teste {
-        width: 290px;
-        height: 200px;
+    main {
+        display: block;
     }
 }
 
@@ -129,11 +128,7 @@ footer {
     .nome-logo,
     .nome-h1,
     .nome-h2 {
+        width: 100%;
         justify-content: center;
-    }
-
-    .teste {
-        width: 690px;
-        height: 500px;
     }
 }
