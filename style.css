@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: borel, sans-serif;
+}
+
+body {
+    background-image: url(src/img/istockphoto-1280017919-612x612\ \(1\).jpg);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border: solid;
+    background-color: rgba(252, 186, 235, 0.925);
+    border-radius: 50px;
+    align-items: center;
+}
+
+#logo {
+    width: 100%;
+    display: flex;
+}
+
+.logo {
+    width: 100px;
+}
+
+.nome-logo {
+    margin-left: 20px;
+}
+
+.dec-logo {
+    margin-left: 20px;
+}
+
+.nome-h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.nome-h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-link {
+    display: flex;
+    margin-right: 15px;
+    gap: 50px;
+    font-weight: 600;
+    list-style: none;
+    align-items: center;
+    border: solid;
+    background-color: white;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.link-bar {
+    color: black;
+    text-decoration: none;
+}
+
+.utero1 {
+    padding: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+    border-radius: 30px;
+    border: solid;
+    background-color: rgb(252, 186, 235, 0.925);
+}
+
+.utero2 {
+    padding: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+    border-radius: 30px;
+    border: solid;
+    background-color: rgb(252, 186, 235, 0.925);
+}
+
+.teste {
+    width: 1800px;
+    height: 1000px;
+}
+
+footer {
+    border: solid;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 40px;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: rgb(252, 186, 235, 0.925);
+}
+
+@media screen and (max-width: 700px) {
+    .nav-link {
+        display: none;
+    }
+
+    #logo,
+    .nome-logo,
+    .nome-h1,
+    .nome-h2 {
+        justify-content: center;
+    }
+
+    .teste {
+        width: 290px;
+        height: 200px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .nav-link {
+        display: none;
+    }
+
+    #logo,
+    .nome-logo,
+    .nome-h1,
+    .nome-h2 {
+        justify-content: center;
+    }
+
+    .teste {
+        width: 690px;
+        height: 500px;
+    }
+}
